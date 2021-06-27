@@ -13,5 +13,5 @@ Maskify.Maskify("");                 // should return ""
 // "What was the name of your first pet?"
 Maskify.Maskify("Skippy");                                   // should return "##ippy"
 Maskify.Maskify("Nananananananananananananananana Batman!"); // should return "####################################man!"
-[Kata link](https://www.codewars.com/kata/5412509bd436bd33920011bc)
 ```
+[Kata link](https://www.codewars.com/kata/5412509bd436bd33920011bc)
