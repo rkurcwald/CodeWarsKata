@@ -8,12 +8,12 @@ Examples<br/>
 
 | Method invocation | Expected result |
 |-------------|-------------|
-|CreditCard_Mask.Maskify("4556364607935616"); | should return "############5616"|
-|CreditCard_Mask.Maskify("64607935616");      | should return "#######5616"
-|CreditCard_Mask.Maskify("1");                | should return "1"
-|CreditCard_Mask.Maskify("");                 | should return ""
-|CreditCard_Mask.Maskify("Skippy");           | should return "##ippy"
-|CreditCard_Mask.Maskify("Nananananananananananananananana Batman!"); | should return "####################################man!"
+|CreditCard_Mask.Maskify("4556364607935616"); | return "############5616"|
+|CreditCard_Mask.Maskify("64607935616");      | return "#######5616"
+|CreditCard_Mask.Maskify("1");                | return "1"
+|CreditCard_Mask.Maskify("");                 | return ""
+|CreditCard_Mask.Maskify("Skippy");           | return "##ippy"
+|CreditCard_Mask.Maskify("Nananananananananananananananana Batman!"); | return "####################################man!"
 
 ---
 
